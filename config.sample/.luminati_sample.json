@@ -1,0 +1,86 @@
+{
+  "_defaults": {
+    "customer": "",
+    "password": "",
+    "token": "",
+    "version": "1.165.449",
+    "www_whitelist_ips": [
+      "14.185.185.227"
+    ]
+  },
+  "proxies": [
+    {
+      "keep_alive": true,
+      "max_requests": 1,
+      "override_headers": false,
+      "pool_size": 20000,
+      "pool_type": "round-robin",
+      "port": 24000,
+      "preset": "rotating",
+      "proxy_connection_type": "https",
+      "proxy_resolve": true,
+      "rules": [
+        {
+          "action": {
+            "ban_ip": 300000
+          },
+          "action_type": "ban_ip",
+          "status": "410",
+          "trigger_type": "status"
+        },
+        {
+          "action": {
+            "ban_ip": 300000
+          },
+          "action_type": "ban_ip",
+          "status": "456",
+          "trigger_type": "status"
+        },
+        {
+          "action": {
+            "ban_ip": 300000
+          },
+          "action_type": "ban_ip",
+          "status": "416",
+          "trigger_type": "status"
+        },
+        {
+          "action": {
+            "ban_ip": 600000
+          },
+          "action_type": "ban_ip",
+          "status": "405",
+          "trigger_type": "status",
+          "url": ""
+        },
+        {
+          "action": {
+            "retry": true
+          },
+          "action_type": "retry",
+          "status": "307",
+          "trigger_type": "status"
+        },
+        {
+          "action": {
+            "ban_ip": 600000
+          },
+          "action_type": "ban_ip",
+          "status": "503",
+          "trigger_type": "status"
+        },
+        {
+          "action": {
+            "ban_ip": 600000
+          },
+          "action_type": "ban_ip",
+          "status": "403",
+          "trigger_type": "status"
+        }
+      ],
+      "ssl": true,
+      "user_agent": "random_desktop",
+      "zone": "static"
+    }
+  ]
+}

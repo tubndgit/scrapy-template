@@ -1,0 +1,18 @@
+{
+    "prod": {
+        "postgres_host": "localhost",
+        "postgres_port": 5432,        
+        "postgres_username": "postgres",
+        "postgres_password": "123456",
+        "postgres_database": "test_db",
+        "postgres_schema": "test"
+    },
+    "dev": {
+        "postgres_host": "localhost",
+        "postgres_port": 5432,        
+        "postgres_username": "postgres",
+        "postgres_password": "123456",
+        "postgres_database": "test_db",
+        "postgres_schema": "test"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "prod": {
+        "AWS_ACCESS_KEY_ID": "some_key",
+        "AWS_SECRET_ACCESS_KEY": "some_key",
+        "AWS_DEFAULT_REGION": "some_key",
+        "BUCKET_NAME": "bucket_name/prefix",
+        "FTP_HOST": "host",
+        "FTP_USER": "user",
+        "FTP_PASS": "passwd",
+        "FTP_PATH": "path/to/export/file",
+        "FEED_STORAGE_FTP_ACTIVE": false
+    },
+    "dev": {
+        "AWS_ACCESS_KEY_ID": "some_key",
+        "AWS_SECRET_ACCESS_KEY": "some_key",
+        "AWS_DEFAULT_REGION": "some_key",
+        "BUCKET_NAME": "bucket_name/prefix",
+        "FTP_HOST": "host",
+        "FTP_USER": "user",
+        "FTP_PASS": "passwd",
+        "FTP_PATH": "path/to/export/file",
+        "FEED_STORAGE_FTP_ACTIVE": false
+    }
+}

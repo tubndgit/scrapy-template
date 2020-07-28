@@ -1,0 +1,30 @@
+{    
+    "prod": {                                
+        "services": {
+            "1": "luminati",
+            "2": "tor",
+            "3": "storm",
+            "4": "smartproxy"
+        },
+        "proxy_url": {
+            "1": "http://127.0.0.1:24000",
+            "2": "http://127.0.0.1:8123",
+            "3": "http://5.79.73.131:13080",
+            "4": "http://gate.smartproxy.com:7000"
+        }       
+    }, 
+    "dev": {                
+        "services": {
+            "1": "luminati",
+            "2": "tor",
+            "3": "storm",
+            "4": "smartproxy"
+        },
+        "proxy_url": {
+            "1": "http://127.0.0.1:24000",
+            "2": "http://127.0.0.1:8123",
+            "3": "http://5.79.73.131:13080",
+            "4": "http://gate.smartproxy.com:7000"
+        }
+    }
+}

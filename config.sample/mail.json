@@ -1,0 +1,22 @@
+{    
+    "prod": {                       
+        "to_addr_list": [
+            "tubnd.younet@gmail.com"
+        ], 
+        "user": "tubnd.of@gmail.com", 
+        "pass": "",         
+        "cc_addr_list": [], 
+        "message": "Spider closed!", 
+        "subject": "Spider closed!"       
+    }, 
+    "dev": {                
+        "to_addr_list": [
+            "tubnd.younet@gmail.com"
+        ], 
+        "user": "tubnd.of@gmail.com", 
+        "pass": "password",         
+        "cc_addr_list": [], 
+        "message": "Spider closed!", 
+        "subject": "Spider closed!"        
+    }
+}

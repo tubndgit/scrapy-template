@@ -1,0 +1,7 @@
+# scrapy.Item
+
+{ITEMS}
+
+# FEED_EXPORT_FIELDS
+
+{FEED_EXPORT_FIELDS}

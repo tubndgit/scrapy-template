@@ -1,0 +1,22 @@
+{    
+    "prod": {
+        "srv": 0,
+        "host": "localhost",
+        "port": 27017,
+        "user": "root",
+        "password": "123456",
+        "admin_database": "admin",
+        "database": "wefresh",
+        "collection": ""
+    },
+    "dev": {
+        "srv": 0,
+        "host": "localhost",
+        "port": 27017,
+        "user": "",
+        "password": "",
+        "admin_database": "",
+        "database": "scrapyx_test", 
+        "collection": "test_tbl"
+    }
+}

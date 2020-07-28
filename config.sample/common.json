@@ -1,0 +1,27 @@
+{
+    "environment": "dev", 
+    "prod": {        
+        "path_to_chromedriver": "chromedriver",
+        "phantomjs_path": "phantomjs",
+        "download": 0,
+        "feed_format": "csv",
+        "storage": "local",
+        "db_type": "mongo",     
+        "proxy": 0,
+        "email_alert": 0,
+        "machine": "02",        
+        "limit": 100
+    }, 
+    "dev": {        
+        "path_to_chromedriver": "chromedriver.exe",
+        "phantomjs_path": "phantomjs.exe",   
+        "download": 1,
+        "feed_format": "json",
+        "storage": "local",
+        "db_type": "mysql",     
+        "proxy": 0,
+        "email_alert": 0,
+        "machine": "01",        
+        "limit": 5
+    }
+}
