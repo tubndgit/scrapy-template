@@ -3,7 +3,7 @@ selenium==2.53.6
 pyvirtualdisplay
 image
 tldextract
-twisted==16.6
+twisted>=20.3.0
 requests
 python-dateutil
 scrapy-random-useragent
