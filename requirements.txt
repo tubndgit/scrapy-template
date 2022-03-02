@@ -1,4 +1,4 @@
-scrapy==1.8.0
+scrapy==1.8.2
 selenium==2.53.6
 pyvirtualdisplay
 image
